@@ -79,7 +79,7 @@ namespace UseIdentity.Areas.Identity.Pages.Account
             [Display(Name = "First Name"), MaxLength(255, ErrorMessage = "First name Max length is 255 character")]
             public string FirstName { get; set; }
             [Required]
-            [Display(Name = "Last Name"), MaxLength(255, ErrorMessage = "First name Max length is 255 character")]
+            [Display(Name = "Last Name"), MaxLength(255, ErrorMessage = "Last name Max length is 255 character")]
             public string LastName { get; set; }
 
 
